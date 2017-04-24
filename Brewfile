@@ -119,10 +119,9 @@ brew 'tcpreplay'
 brew 'tcptrace'
 brew 'ucspi-tcp'
 brew 'xz'
-cask 'torbrowser'
 
 # => AppStore Apps
 brew 'mas'
 # mas '1176895641' # Spark
-mas 'keynote', 409183694  # keynote
-mas 'xcode', 497799835  # xcode
+#mas 'keynote', 409183694  # keynote
+#mas 'xcode', 497799835  # xcode
