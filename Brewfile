@@ -70,6 +70,7 @@ cask 'virtualbox'
 cask 'vlc'
 cask 'java'
 cask 'firefox'
+cask 'cloudapp'
 
 # Code editors
 cask 'sublime-text'
@@ -123,5 +124,5 @@ cask 'torbrowser'
 # => AppStore Apps
 brew 'mas'
 # mas '1176895641' # Spark
-mas '409183694'  # keynote
-mas '497799835'  # xcode
+mas 'keynote', 409183694  # keynote
+mas 'xcode', 497799835  # xcode
