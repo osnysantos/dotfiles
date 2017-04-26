@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"ApplySyntax",
+		"AutoFileName",
+		"Autoprefixer",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr",
+		"EJS",
+		"Emmet",
+		"ERB Snippets",
+		"Gist",
+		"GitGutter",
+		"Liquid",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Material Theme",
+		"Modific",
+		"Package Control",
+		"ReactJS",
+		"Ruby on Rails snippets",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-jsxhint",
+		"Terminal",
+		"View In Browser",
+		"Vue Syntax Highlight",
+		"WakaTime"
+	]
+}

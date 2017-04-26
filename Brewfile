@@ -1,15 +1,13 @@
 # Setting up cask dir
 cask_args appdir:'~/Applications'
 
-# Homebrew Bundle
-tap 'homebrew/bundle'
-
-## caskroom/cask
+# Taps we need to make this all work
 tap 'caskroom/cask'
-brew 'cask'
-
-## homebrew/binary
-tap 'homebrew/binary'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'homebrew/dupes'
+tap 'homebrew/versions'
+tap 'neovim/neovim'
 
 # Updating native GNU core
 brew 'coreutils'
@@ -20,8 +18,7 @@ brew 'moreutils'
 # Find/Locate to macOS
 brew 'findutils'
 
-# --- Apps and Tools ---
-# Development
+# Install Packages
 brew 'bash'
 brew 'docker'
 # brew 'gdrive'
@@ -47,6 +44,8 @@ brew 'tree'
 brew 'wget'
 brew 'yarn'
 brew 'speedtest_cli'
+brew 'redis'
+brew 'heroku'
 
 # Essential Every-day apps
 cask 'skype'
@@ -55,9 +54,8 @@ cask 'alfred'
 cask 'iterm2'
 cask 'textual'
 cask 'macvim'
+cask 'neovim'
 cask 'mamp'
-cask 'photoshop'
-cask 'lightroom'
 cask 'discord'
 cask 'mongodb'
 cask 'github-desktop'
@@ -71,6 +69,7 @@ cask 'vlc'
 cask 'java'
 cask 'firefox'
 cask 'cloudapp'
+cask 'sketch'
 
 # Code editors
 cask 'sublime-text'
@@ -120,8 +119,13 @@ brew 'tcptrace'
 brew 'ucspi-tcp'
 brew 'xz'
 
-# => AppStore Apps
+# Take so much time / Install later
+# cask 'photoshop'
+# cask 'lightroom'
+
+# Install Mac App Store Apps
 brew 'mas'
 # mas '1176895641' # Spark
-#mas 'keynote', 409183694  # keynote
+# mas 'keynote', 409183694  # keynote
+# mas 'Tweetbot', id: 557168941 #tweetbot
 #mas 'xcode', 497799835  # xcode

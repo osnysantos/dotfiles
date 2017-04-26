@@ -6,6 +6,15 @@
 
 **Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
+wget -qO- https://github.com/osnysantos/dotfiles/archive/master.tar.gz | tar xvz -C ~/
+
+git clone git://github.com/alanhamlett/dotfiles.git ~/dotfiles
+ln -sf ~/dotfiles/.vimrc $HOME/.vimrc
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#brew tap universal-ctags/universal-ctags
+#brew install --HEAD universal-ctags
+#vim +PluginInstall +qall
+
 ### Using Git and the bootstrap script
 
 You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
@@ -55,10 +64,10 @@ My `~/.extra` looks something like this:
 ```bash
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
-GIT_AUTHOR_NAME="Mathias Bynens"
+GIT_AUTHOR_NAME="Osny Netto"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="mathias@mailinator.com"
+GIT_AUTHOR_EMAIL="netto@osny.me"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
