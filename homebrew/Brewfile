@@ -10,7 +10,7 @@ tap 'homebrew/versions'
 tap 'neovim/neovim'
 
 # Updating native GNU core
-brew 'coreutils'
+# brew 'coreutils'
 
 # Aditional Tools
 brew 'moreutils'
@@ -46,6 +46,7 @@ brew 'yarn'
 brew 'speedtest_cli'
 brew 'redis'
 brew 'heroku'
+brew 'neovim'
 
 # Essential Every-day apps
 cask 'skype'
@@ -54,7 +55,6 @@ cask 'alfred'
 cask 'iterm2'
 cask 'textual'
 cask 'macvim'
-cask 'neovim'
 cask 'mamp'
 cask 'discord'
 cask 'mongodb'
@@ -63,7 +63,7 @@ cask 'hyper'
 cask 'ngrok'
 cask 'robomongo'
 cask 'slack'
-cask 'transmission'
+cask 'utorrent'
 cask 'virtualbox'
 cask 'vlc'
 cask 'java'
@@ -88,43 +88,16 @@ cask 'bartender'
 cask 'keepingyouawake'
 cask 'moom'
 # cask 'spectacle'
-
-# Others
 cask 'spotify'
 cask 'spotify-notifications'
-# cask 'whatsapp'
 
-# CTF tools
-brew 'aircrack-ng'
-brew 'bfg'
-brew 'binutils'
-brew 'binwalk'
-brew 'cifer'
-brew 'dex2jar'
-brew 'dns2tcp'
-brew 'fcrackzip'
-brew 'foremost'
-brew 'hashpump'
-brew 'hydra'
-brew 'john'
-brew 'knock'
-brew 'netpbm'
-brew 'nmap'
-brew 'pngcheck'
-brew 'socat'
-brew 'sqlmap'
-brew 'tcpflow'
-brew 'tcpreplay'
-brew 'tcptrace'
-brew 'ucspi-tcp'
-brew 'xz'
 
 # Take so much time / Install later
 # cask 'photoshop'
 # cask 'lightroom'
 
 # Install Mac App Store Apps
-brew 'mas'
+# brew 'mas'
 # mas '1176895641' # Spark
 # mas 'keynote', 409183694  # keynote
 # mas 'Tweetbot', id: 557168941 #tweetbot
