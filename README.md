@@ -11,9 +11,22 @@ In **Apple Icon > System Preferences**:
 - Trackpad > Scroll & Zoom > Uncheck Scroll Direction: Natural
 - Keyboard > Key Repeat > Fast (all the way to the right)
 - Keyboard > Delay Until Repeat > Short (all the way to the right)
-- Keyboard > Remap Caps Lock key to Control
+- Keyboard > Modifiers Keys > Remap Caps Lock key to Control
+- Keyboard > Text > Uncheck Correct spelling automatically
+- Keyboard > Text > Uncheck Capitalize words automatically
+- Keyboard > Text > Uncheck Add period with double-space
+- Keyboard > Text > Uncheck Use smart quotes and dashed
 - Dock > Automatically hide and show the Dock
-- Finder >
+- Finder > Advanced > Show all filename extensions
+- Finder > General > Select the home directory to show when opening a new tab
+- Finder > View > Show Status Bar
+- Finder > View > Show Path Bar
+- Finder > View > Show View Options >
+- Finder > Sidebar > Show Home Directory in the Sidebar
+- Finder > Always show Hidden and Invisible Files (by Command Line):
+  ```defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder```
+
+
 
 ## Homebrew - Applications
 
@@ -26,10 +39,20 @@ To install, just run this code:
 
 ## Manual Application Settings
 
-### iTerm2
+### Terminal: iTerm2
 
 - Don’t display the annoying prompt when quitting iTerm
 - Profiles > Default > Reuse previous session's directory
+
+### Skype
+
+-
+
+### uTorrent
+
+- Uncheck Start uTorrent when Mac starts up
+- Uncheck Prompt user before quitting
+
 
 ## Mac App Store Apps to Install
 
